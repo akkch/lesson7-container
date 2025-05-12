@@ -7,9 +7,9 @@ inputs:
   number2:
     required: true
     default: 0
-  outputs:
-    result:
-      description: "output of the sum the 2 numbers"
+outputs:
+  result:
+    description: "output of the sum the 2 numbers"
   runs:
     using: "docker"
     image: "Dockefile"
