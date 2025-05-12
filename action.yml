@@ -12,7 +12,7 @@ outputs:
     description: "output of the sum the 2 numbers"
 runs:
   using: "docker"
-  image: "Dockefile"
+  image: "Dockerfile"
   args:
     - ${{ inputs.number1 }}
     - ${{ inputs.number2 }}
