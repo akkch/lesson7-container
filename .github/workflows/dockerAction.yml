@@ -17,4 +17,4 @@ jobs:
           number2: 58
       - run: echo ${{ steps.dockerAction.result }}
       - run: cat $GIHUB_WORKSPACE/containerOutputFile.txt
-      - run: cat ${{ gihub.workspace }}/containerOutputFile.txt
+      - run: cat ${{ github.workspace }}/containerOutputFile.txt
